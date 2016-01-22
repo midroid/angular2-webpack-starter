@@ -22,7 +22,7 @@ var HOST = process.env.HOST || 'localhost';
 var PORT = process.env.PORT || 8080;
 
 var metadata = {
-  title: 'Angular2 Webpack Starter by @gdi2990 from @AngularClass',
+  title: 'kt',
   baseUrl: '/',
   host: HOST,
   port: PORT,
@@ -41,7 +41,7 @@ module.exports = {
 
   entry: {
     'vendor':'./src/vendor.ts',
-    'main':'./src/main.ts' // our angular app
+    'main':'./src/app/boot.ts' // our angular app
   },
 
   // Config for our build files

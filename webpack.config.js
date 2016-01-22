@@ -10,7 +10,7 @@ var HtmlWebpackPlugin  = require('html-webpack-plugin');
 var ENV = process.env.ENV = process.env.NODE_ENV = 'development';
 
 var metadata = {
-  title: 'Angular2',
+  title: '打刻',
   baseUrl: '/',
   host: '0.0.0.0',
   port: 8080,
@@ -27,7 +27,7 @@ module.exports = {
   debug: true,
 
   // our angular app
-  entry: { 'vendor': './src/vendor.ts', 'main': './src/main.ts' },
+  entry: { 'vendor': './src/vendor.ts', 'main': './src/app/boot.ts' },
 
   // Config for our build files
   output: {
